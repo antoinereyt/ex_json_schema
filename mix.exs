@@ -32,7 +32,6 @@ defmodule ExJsonSchema.Mixfile do
   # Type `mix help deps` for more examples and options
   defp deps do
     [
-      {:httpoison, "~> 0.8", only: :test},
       {:poison, "~> 1.5", only: :test},
       {:mix_test_watch, "~> 0.2.6", only: [:dev, :test]},
       {:ex_doc, ">= 0.0.0", only: :dev}
