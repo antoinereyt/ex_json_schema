@@ -16,7 +16,7 @@ env:
 before_install:
   - git submodule update --init --recursive
 script:
-  - "yes | mix do deps.get, deps.compile, compile --warnings-as-errors"
+  - "yes | mix do deps.get, deps.compile, compile --warnings-as-errors test"
 notifications:
   email:
     - antoine.reyt@.gmail.com
